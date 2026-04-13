@@ -54,7 +54,7 @@ const levels = [
       { label: "Peer Mediation Training: Students & Educators" },
       { label: "Professional Mediator Certification" },
       { label: "Women Outreach Mediation Training" },
-      { label: "Certification Fee: ₦250,000" },
+      { label: "Certification Fee: Free" },
     ],
     programs: [
       {

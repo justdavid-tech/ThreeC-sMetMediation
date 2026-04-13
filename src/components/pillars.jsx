@@ -3,29 +3,30 @@ import { useState } from "react";
 const pillars = [
   {
     step: "01",
-    title: "Counseling",
-    tagline: "Prepare the Heart",
+    title: "Mediation",
+    tagline: "Find Common Ground",
     color: "from-primary/10 to-primary/5",
     borderColor: "border-primary/30",
     activeColor: "bg-primary",
     textColor: "text-primary",
     dotColor: "bg-primary",
     description:
-      "Before resolution can happen, parties must be emotionally and psychologically prepared. Our conflict-focused counseling equips individuals with clarity, emotional balance, and the right mindset to engage productively.",
+      "A confidential, voluntary process where a neutral third party guides disputing parties toward a mutually acceptable resolution without litigation. Our flagship service, practiced across 12+ dispute categories.",
     points: [
-      "Conflict coaching & emotional support",
-      "Relationship & interpersonal guidance",
-      "Workplace behavioral dynamics",
-      "Youth & peer mediation support",
+      "Commercial & contractual disputes",
+      "Family, workplace & community",
+      "Oil & Gas, Tax & Environmental",
+      "Criminal & policy mediation",
     ],
     icon: (
       <svg viewBox="0 0 40 40" fill="none" className="w-8 h-8" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="20" cy="13" r="6" stroke="currentColor" strokeWidth="2" />
-        <path d="M8 34c0-6.627 5.373-12 12-12s12 5.373 12 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-        <path d="M26 20l3 3-3 3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M20 6v4M20 30v4M6 20h4M30 20h4" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+        <circle cx="20" cy="20" r="8" stroke="currentColor" strokeWidth="2"/>
+        <path d="M14 20c0-3.314 2.686-6 6-6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+        <circle cx="20" cy="20" r="2" fill="currentColor"/>
       </svg>
     ),
-    href: "/services/counseling",
+    href: "/services/mediation",
   },
   {
     step: "02",
@@ -55,30 +56,29 @@ const pillars = [
   },
   {
     step: "03",
-    title: "Mediation",
-    tagline: "Find Common Ground",
+    title: "Counseling",
+    tagline: "Prepare the Heart",
     color: "from-primary/10 to-primary/5",
     borderColor: "border-primary/30",
     activeColor: "bg-primary",
     textColor: "text-primary",
     dotColor: "bg-primary",
     description:
-      "A confidential, voluntary process where a neutral third party guides disputing parties toward a mutually acceptable resolution without litigation. Our flagship service, practiced across 12+ dispute categories.",
+      "Before resolution can happen, parties must be emotionally and psychologically prepared. Our conflict-focused counseling equips individuals with clarity, emotional balance, and the right mindset to engage productively.",
     points: [
-      "Commercial & contractual disputes",
-      "Family, workplace & community",
-      "Oil & Gas, Tax & Environmental",
-      "Criminal & policy mediation",
+      "Conflict coaching & emotional support",
+      "Relationship & interpersonal guidance",
+      "Workplace behavioral dynamics",
+      "Youth & peer mediation support",
     ],
     icon: (
       <svg viewBox="0 0 40 40" fill="none" className="w-8 h-8" xmlns="http://www.w3.org/2000/svg">
-        <path d="M20 6v4M20 30v4M6 20h4M30 20h4" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-        <circle cx="20" cy="20" r="8" stroke="currentColor" strokeWidth="2"/>
-        <path d="M14 20c0-3.314 2.686-6 6-6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-        <circle cx="20" cy="20" r="2" fill="currentColor"/>
+        <circle cx="20" cy="13" r="6" stroke="currentColor" strokeWidth="2" />
+        <path d="M8 34c0-6.627 5.373-12 12-12s12 5.373 12 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+        <path d="M26 20l3 3-3 3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
-    href: "/services/mediation",
+    href: "/services/counseling",
   },
   {
     step: "04",

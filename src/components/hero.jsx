@@ -371,7 +371,7 @@ export default function Hero() {
 
           {/* CTA Buttons */}
           <div
-            className="flex flex-wrap gap-4 mb-16"
+            className="flex flex-col sm:flex-row flex-wrap gap-4 mb-16"
             style={{
               opacity: mounted ? 1 : 0,
               transform: mounted ? "translateY(0)" : "translateY(20px)",
@@ -381,11 +381,11 @@ export default function Hero() {
             {/* Primary CTA */}
             <button
               onClick={() => setBookingOpen(true)}
-              className="group relative inline-flex items-center gap-2.5 px-8 py-4
+              className="group relative inline-flex items-center justify-center gap-2.5 px-8 py-4
                 bg-accent text-primary-dark font-bold text-sm rounded-xl
                 hover:bg-accent-light transition-all duration-300
                 shadow-xl shadow-accent/25 hover:shadow-accent/40
-                hover:-translate-y-1 overflow-hidden"
+                hover:-translate-y-1 overflow-hidden w-full sm:w-auto"
             >
               {/* Shimmer effect */}
               <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full
@@ -402,11 +402,11 @@ export default function Hero() {
             {/* Secondary CTA */}
             <Link
               to="/services"
-              className="group inline-flex items-center gap-2.5 px-8 py-4
+              className="group inline-flex items-center justify-center gap-2.5 px-8 py-4
                 text-white font-semibold text-sm rounded-xl
                 border border-white/20 hover:border-accent/40
                 hover:bg-white/10 transition-all duration-300
-                hover:-translate-y-1 backdrop-blur-sm"
+                hover:-translate-y-1 backdrop-blur-sm w-full sm:w-auto text-center"
               style={{ backgroundColor: "rgba(255,255,255,0.07)" }}
             >
               Explore Services

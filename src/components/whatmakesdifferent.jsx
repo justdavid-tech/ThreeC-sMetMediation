@@ -227,7 +227,7 @@ export default function WhatMakesDifferent() {
               we are shaping the future of mediation."
             </p>
             <p className="text-neutral-500 text-sm mt-3">
-              Chief Chijioke Nnanna Ibeku, Founder & Lead Mediator
+              Chijioke Nnanna Ibeku, Founder & Lead Mediator
             </p>
           </div>
         </div>

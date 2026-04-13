@@ -30,7 +30,7 @@ const testimonials = [
     location: "Enugu, Nigeria",
     category: "Community Conflict",
     quote:
-      "The peer mediation program they brought to our community was transformational. Our children learned how to resolve conflicts with dignity and maturity. Chief Ibeku and his team are doing God's work, building peace from the grassroots up.",
+      "The peer mediation program they brought to our community was transformational. Our children learned how to resolve conflicts with dignity and maturity. The Ceo and his team are doing God's work, building peace from the grassroots up.",
     initials: "NE",
     color: "bg-accent",
   },
